@@ -17,6 +17,7 @@ namespace Tyuiu.IvanovSI.Sprint2.Task0.V8.Test
             res = ds.GetCompareOperations(x, y);
             bool[] wait = new bool[6] { true, false, true, false, true, false };
 
+
             CollectionAssert.AreEqual(wait, res);
         }
     }

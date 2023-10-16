@@ -20,6 +20,7 @@ namespace Tyuiu.IvanovSI.Sprint2.Task0.V8.Lib
             res[4] = x <= y;
             res[5] = x >= y;
 
+
             return res;
         }
     }
